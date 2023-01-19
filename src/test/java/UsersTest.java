@@ -10,7 +10,7 @@ public class UsersTest extends BaseTest {
 
     private static final String USER_NAME = "Greg2";
 
-    @Test(priority = 0, description = "Создание пользователя")
+    @Test(description = "Создание пользователя")
     public void createUserTest() {
 
         Response response = createUser("createUserRequest.json");
